@@ -8,7 +8,7 @@ To get this project to run:
 
 1. Open the DotnetCoreAngularStarter solution in Visual Studio.
 2. Expand Dependencies/ dropdown. Right click on npm/. Select "Restore Packages".
-..* Alternatively, navigate to the DotnetCoreAngularStarter project folder in a terminal window; type "dotnet restore".
+  * Alternatively, navigate to the DotnetCoreAngularStarter project folder in a terminal window; type "dotnet restore".
 3. In a terminal window, navigate to the DotNetCoreAngularStarter project folder; type "npm install". Wait for NPM packages to load.
 4. Start the DotnetCoreAngularStarter project in Visual Studio.
 
