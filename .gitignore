@@ -1,3 +1,4 @@
-DotnetCoreAngularStarter/obj/
+DotnetCoreAngularStarter/obj/Debug/
+DotnetCoreAngularStarter/obj/Release/
 DotnetCoreAngularStarter/bin/
 DotnetCoreAngularStarter/node_modules

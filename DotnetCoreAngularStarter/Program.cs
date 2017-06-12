@@ -17,6 +17,7 @@ namespace DotnetCoreAngularStarter
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
+                .UseUrls("http://*:8080")
                 .Build();
 
             host.Run();
