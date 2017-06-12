@@ -2,6 +2,14 @@
 
 Reference used to build this project: https://medium.com/@levifuller/building-an-angular-application-with-asp-net-core-in-visual-studio-2017-visualized-f4b163830eaa
 
+## Things you need
+1. Visual Studio 2017 Community (2015 will work, too)
+2. .NET Core 1.1.2 installed on your machine.
+    * If you installed Visual Studio 2017 Community, this will be taken care of for you.
+3. The latest version of NodeJS installed on your machine (https://nodejs.org).
+4. Angular CLI installed globally on your machine.
+    * Run 'npm install -g angular-cli'
+
 ## First run in Visual Studio
 
 To get this project to run:
