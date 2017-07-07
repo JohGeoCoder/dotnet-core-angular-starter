@@ -25,7 +25,7 @@ To get this project to run:
         * If you change the Angular source code and do not run the command 'ng build' afterwards, the project will run with old Javascript code that doesn't have your latest changes.
 4. Start the DotnetCoreAngularStarter project in Visual Studio.
 
-## Run in Live Reload mode while developing
+## Run in Live Development mode
 
 By running the project this way, changes will be detected in both your Angular code and your C# code. Your project will automatically re-compile, rebuild, and run with your new changes.
 
