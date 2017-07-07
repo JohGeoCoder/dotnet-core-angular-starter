@@ -6,7 +6,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <Compile Remove="%2a%2a\**" />
+    <Compile Remove="appsource\node_modules\**" />
+    <Content Remove="%2a%2a\**" />
+    <Content Remove="appsource\node_modules\**" />
+    <EmbeddedResource Remove="%2a%2a\**" />
+    <EmbeddedResource Remove="appsource\node_modules\**" />
+    <None Remove="%2a%2a\**" />
+    <None Remove="appsource\node_modules\**" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />

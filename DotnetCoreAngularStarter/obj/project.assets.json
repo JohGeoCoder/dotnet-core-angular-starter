@@ -4669,15 +4669,15 @@
       ]
     },
     "Microsoft.NETCore.App/1.1.2": {
-      "sha512": "fcN0Ob6rjY7Zu0770cA5l9wRJvj7+ltJPPdryUidejkkhao+y2AYrtezBTlP9nCSFXLmYR9BtaknORT17x8reA==",
+      "sha512": "TUPK1xhef7WcbsIkhfZOz6J7DrG5aebjVRBswPfHe90eDhfnlWHaLiI1OtMB2O78bf5d37WO6ge+9nel2keKkA==",
       "type": "package",
       "path": "microsoft.netcore.app/1.1.2",
       "files": [
-        "Microsoft.NETCore.App.1.1.2.nupkg.sha512",
-        "Microsoft.NETCore.App.nuspec",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
-        "lib/netcoreapp1.0/_._"
+        "lib/netcoreapp1.0/_._",
+        "microsoft.netcore.app.1.1.2.nupkg.sha512",
+        "microsoft.netcore.app.nuspec"
       ]
     },
     "Microsoft.NETCore.DotNetHost/1.1.0": {
@@ -9662,15 +9662,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\John\\.nuget\\packages\\": {}
+    "C:\\Users\\John2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Storage\\V\\DotnetCoreAngularStarter\\DotnetCoreAngularStarter\\DotnetCoreAngularStarter.csproj",
+      "projectUniqueName": "C:\\Y\\Github\\dotnet-core-angular-starter\\DotnetCoreAngularStarter\\DotnetCoreAngularStarter.csproj",
       "projectName": "DotnetCoreAngularStarter",
-      "projectPath": "D:\\Storage\\V\\DotnetCoreAngularStarter\\DotnetCoreAngularStarter\\DotnetCoreAngularStarter.csproj",
-      "outputPath": "D:\\Storage\\V\\DotnetCoreAngularStarter\\DotnetCoreAngularStarter\\obj\\",
+      "projectPath": "C:\\Y\\Github\\dotnet-core-angular-starter\\DotnetCoreAngularStarter\\DotnetCoreAngularStarter.csproj",
+      "outputPath": "C:\\Y\\Github\\dotnet-core-angular-starter\\DotnetCoreAngularStarter\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"
