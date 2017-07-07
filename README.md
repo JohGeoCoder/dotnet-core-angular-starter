@@ -16,11 +16,13 @@ To get this project to run:
 
 1. Open the DotnetCoreAngularStarter solution in Visual Studio.
 2. Expand Dependencies/ dropdown. Right click on npm/. Select "Restore Packages".
-    * Alternatively, navigate to the DotnetCoreAngularStarter project folder in a terminal window; type "dotnet restore".
-3. Open a terminal window and navigate to the 'DotNetCoreAngularStarter/appsource' project folder.
+    * Alternatively in the case where you are using Visual Studio 2015 or earlier, open a terminal window and navigate to the DotnetCoreAngularStarter project folder. Run the command 'dotnet restore'.
+3. Open a terminal window (or use the same one as the previous step) and navigate to the 'DotNetCoreAngularStarter/appsource' project folder.
     * Run the command 'npm install'. Wait for NPM packages to load.
-    * Run the command 'ng build' to transpile the TypeScript into javascript within the wwwroot folder.
-        * Without this step, the running project will display as blank, or the project will run with old code.
+    * Run the command 'ng build' to transpile the TypeScript into Javascript.
+	    * The generated Javascript will be placed in the 'DotnetCoreAngularStarter/wwwroot' directory. If the 'wwwroot' directory didn't exist before, it will be created automatically.
+        * Without the 'wwwroot' directory and its contents, the running project will display as blank.
+        * If you change the Angular source code and do not run the command 'ng build' afterwards, the project will run with old Javascript code that doesn't have your latest changes.
 4. Start the DotnetCoreAngularStarter project in Visual Studio.
 
 ## Run in development mode
